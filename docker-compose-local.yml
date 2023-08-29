@@ -18,13 +18,13 @@ services:
       OMRS_CONFIG_CONNECTION_PASSWORD: "root"
       OMRS_CONFIG_CONNECTION_EXTRA_ARGS: "&autoReconnect=true&sessionVariables=default_storage_engine%3DInnoDB&useUnicode=true&characterEncoding=UTF-8&useSSL=false&requireSSL=false"
       OMRS_CONFIG_AUTO_UPDATE_DATABASE: "false"
-      OMRS_CONFIG_CREATE_TABLES: "false"
-      OMRS_CONFIG_HAS_CURRENT_OPENMRS_DATABASE: "true"
+      OMRS_CONFIG_CREATE_TABLES: "true"
+      OMRS_CONFIG_HAS_CURRENT_OPENMRS_DATABASE: "false"
       OMRS_DEV_DEBUG_PORT: "1044"
     volumes:
       - ./configs/sigdep3/distribution:/openmrs/distribution
       # uncomment to persist the volumes on the Host file system
-      #- .data/sigdep3:/openmrs/data
+      - ./configs/sigdep3/data:/openmrs/data
     ports:
       - "8080:8080"
       - "1044:1044"
