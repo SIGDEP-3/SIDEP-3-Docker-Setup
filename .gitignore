@@ -5,3 +5,5 @@ configs/traefik/certs/*.pem
 .idea
 .db/*
 .data/*
+
+_config.json
