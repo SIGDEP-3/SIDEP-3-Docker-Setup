@@ -95,7 +95,7 @@
       "middle": {
         "algorithm": "phonetic",
         "threshold" : 22,
-        "fhirpath": "name.where(use='official').last().given",
+        "fhirpath": "iif(name.where(use='official').first().given.count() > 1, name.where(use='official').first().given.last(), null)",
         "espath": "middle",
         "null_handling": "moderate",
         "null_handling_both": "moderate"
@@ -147,7 +147,7 @@
     "middle": {
       "algorithm": "phonetic",
       "threshold" : 22,
-      "fhirpath": "name.where(use='official').last().given",
+      "fhirpath": "iif(name.where(use='official').first().given.count() > 1, name.where(use='official').first().given.last(), null)",
       "espath": "middle",
       "null_handling": "moderate",
       "null_handling_both": "moderate"
@@ -192,7 +192,7 @@
   "middle": {
     "algorithm": "phonetic",
     "threshold" : 22,
-    "fhirpath": "name.where(use='official').last().given",
+    "fhirpath": "iif(name.where(use='official').first().given.count() > 1, name.where(use='official').first().given.last(), null)",
     "espath": "middle",
     "null_handling": "moderate",
     "null_handling_both": "moderate"
@@ -245,7 +245,7 @@
   "middle": {
     "algorithm": "jaro-winkler-similarity",
     "threshold" : 0.8,
-    "fhirpath": "name.where(use='official').last().given",
+    "fhirpath": "iif(name.where(use='official').first().given.count() > 1, name.where(use='official').first().given.last(), null)",
     "espath": "middle",
     "null_handling": "moderate",
     "null_handling_both": "moderate"
