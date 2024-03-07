@@ -1,6 +1,6 @@
 tls:
   certificates:
-    - certFile: /etc/certs/live/tap-demo.openelisci.org/fullchain.pem
-      keyFile: /etc/certs/live/tap-demo.openelisci.org/privkey.pem
+    - certFile: /etc/certs/live/test2.cihis.org/fullchain.pem
+      keyFile: /etc/certs/live/test2.cihis.org/privkey.pem
 #    - certFile: /etc/certs/openelisci-22.pem
 #      keyFile: /etc/certs/openelisci.key

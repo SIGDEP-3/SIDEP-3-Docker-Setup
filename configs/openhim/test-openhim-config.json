@@ -87,7 +87,8 @@
     },
     {
       "roles": [
-        "test"
+        "test",
+        "opencr"
       ],
       "clientID": "sigdep3",
       "name": "sigdep3",
@@ -114,8 +115,1617 @@
       "passwordAlgorithm": "sha512",
       "passwordSalt": "af95e6217ff533c8e4c722884c31c9d1",
       "passwordHash": "15af526235cf7a94eae617a7e23a63c4dac156dac6d1a782c79cf4ac7060ef5785f91fc9329819cd9790cf72c4bea3fa46fc459dece74475cc76790f65e6dfc5"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSUS-DM_PUBLIC__AIBEF_de_KORHOGO",
+      "name": "CSUS-DM PUBLIC  AIBEF de KORHOGO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSUS-CAT_PUBLIC_de_KORHOGO",
+      "name": "CSUS-CAT PUBLIC de KORHOGO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_CONFESSIONNEL_Protestant_de_FERKESSEDOUGOU",
+      "name": "HG CONFESSIONNEL Protestant de FERKESSEDOUGOU",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-M_PUBLIC_de_KOKO-TON",
+      "name": "CSU-M PUBLIC de KOKO-TON",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CHR_PUBLIC_de_KORHOGO",
+      "name": "CHR PUBLIC de KORHOGO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSR-DM_PUBLIC_de_DELAFOSSE",
+      "name": "CSR-DM PUBLIC de DELAFOSSE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_KOUTO",
+      "name": "HG PUBLIC de KOUTO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-M_PUBLIC_Petit_paris_de_KORHOGO",
+      "name": "CSU-M PUBLIC Petit paris de KORHOGO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSUS-PMI_PUBLIC_de_KORHOGO",
+      "name": "CSUS-PMI PUBLIC de KORHOGO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CMS_Baptiste_de_TORGOKAHA",
+      "name": "CMS Baptiste de TORGOKAHA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_TAI",
+      "name": "HG PUBLIC de TAI",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_KOMBORODOUGOU",
+      "name": "CSU-DM PUBLIC de KOMBORODOUGOU",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_KOUIBLY",
+      "name": "HG PUBLIC de KOUIBLY",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_FACOBLY",
+      "name": "CSU-DM PUBLIC de FACOBLY",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "Infirmerie_Privé_RAHAMATOULAHI",
+      "name": "Infirmerie Privé RAHAMATOULAHI",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_SIRASSO",
+      "name": "CSU-DM PUBLIC de SIRASSO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_KOUN-FAO",
+      "name": "HG PUBLIC de KOUN-FAO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-D_CONFESSIONNEL_Sainte-Marie_de_BONDOUKOU",
+      "name": "CSU-D CONFESSIONNEL Sainte-Marie de BONDOUKOU",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CHR_PUBLIC_de_BONDOUKOU",
+      "name": "CHR PUBLIC de BONDOUKOU",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_ASSUEFRY",
+      "name": "CSU-DM PUBLIC de ASSUEFRY",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_KOUASSI-DATEKRO",
+      "name": "CSU-DM PUBLIC de KOUASSI-DATEKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-D_PUBLIC_de_BONDOUKOU",
+      "name": "CSU-D PUBLIC de BONDOUKOU",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_TANDA",
+      "name": "HG PUBLIC de TANDA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_TRANSUA",
+      "name": "HG PUBLIC de TRANSUA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "ONG_PRIVE_notre_Grenier_de_BONDOUKOU",
+      "name": "ONG PRIVE notre Grenier de BONDOUKOU",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_SOROBANGO",
+      "name": "CSU-DM PUBLIC de SOROBANGO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_TABAGNE",
+      "name": "CSU-DM PUBLIC de TABAGNE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_TANKESSE",
+      "name": "CSU-DM PUBLIC de TANKESSE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_TIENKOIKRO",
+      "name": "CSU-DM PUBLIC de TIENKOIKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSR-DM_PUBLIC_de_KRAKRO",
+      "name": "CSR-DM PUBLIC de KRAKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_AMANVI",
+      "name": "CSU-DM PUBLIC de AMANVI",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_SANDEGUE",
+      "name": "HG PUBLIC de SANDEGUE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSUS-PMI_PUBLIC_de_BONDOUKOU",
+      "name": "CSUS-PMI PUBLIC de BONDOUKOU",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_TIEDIO",
+      "name": "CSU-DM PUBLIC de TIEDIO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_GOUMERE",
+      "name": "CSU-DM PUBLIC de GOUMERE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_SAPLI-SEPINGO",
+      "name": "CSU-DM PUBLIC de SAPLI-SEPINGO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "SERVICE_DE_SANTE_DERMTA-LEPRE_BONDOUKOU",
+      "name": "SERVICE DE SANTE DERMTA-LEPRE BONDOUKOU",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_BANGOLO",
+      "name": "HG PUBLIC de BANGOLO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_FERKESSEDOUGOU",
+      "name": "HG PUBLIC de FERKESSEDOUGOU",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSUS-PMI_PUBLIC_de_FERKESSEDOUGOU",
+      "name": "CSUS-PMI PUBLIC de FERKESSEDOUGOU",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CHR_PUBLIC_de_DUEKOUE",
+      "name": "CHR PUBLIC de DUEKOUE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-D_PUBLIC_de_KORHOGO",
+      "name": "CSU-D PUBLIC de KORHOGO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSUS-SSSU_PUBLIC_de_KORHOGO",
+      "name": "CSUS-SSSU PUBLIC de KORHOGO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "ACDP_de_KATIOLA",
+      "name": "ACDP de KATIOLA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "FSU_PUBLIC_de_AHOUGNANSOU",
+      "name": "FSU PUBLIC de AHOUGNANSOU",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-D_PUBLIC_AIR_France_de_BOUAKE_SUD",
+      "name": "CSU-D PUBLIC AIR France de BOUAKE SUD",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_BOUAKE_BELLE-VILLE",
+      "name": "CSU-DM PUBLIC de BOUAKE BELLE-VILLE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_BOTRO",
+      "name": "HG PUBLIC de BOTRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_BROBO",
+      "name": "CSU-DM PUBLIC de BROBO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_BROUKRO",
+      "name": "CSU-DM PUBLIC de BROUKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSUS-CAT_PUBLIC_de_BOUAKE_OUEST",
+      "name": "CSUS-CAT PUBLIC de BOUAKE OUEST",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CHR_PUBLIC_de_KATIOLA",
+      "name": "CHR PUBLIC de KATIOLA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CHU_PUBLIC_de_BOUAKE",
+      "name": "CHU PUBLIC de BOUAKE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PRIVE-ONG_Centre_SAS_BOUAKE_OUEST",
+      "name": "CSU-DM PRIVE-ONG Centre SAS BOUAKE OUEST",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_CONFESSIONNEL_Catholique_de_DJEBONOUA",
+      "name": "CSU-DM CONFESSIONNEL Catholique de DJEBONOUA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-M_PUBLIC_de_BOUAKE_SOKOURA",
+      "name": "CSU-M PUBLIC de BOUAKE SOKOURA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_DIABO",
+      "name": "CSU-DM PUBLIC de DIABO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "FSU_PUBLIC_de_DIEZOUKOUAMEKRO",
+      "name": "FSU PUBLIC de DIEZOUKOUAMEKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_DJEBONOUA",
+      "name": "CSU-DM PUBLIC de DJEBONOUA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_FRONAN",
+      "name": "CSU-DM PUBLIC de FRONAN",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_SAKASSOU",
+      "name": "HG PUBLIC de SAKASSOU",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PRIVE_HMI_de_ATTIENKRO",
+      "name": "HG PRIVE HMI de ATTIENKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_LANGUIBONOU",
+      "name": "CSU-DM PUBLIC de LANGUIBONOU",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-D_CONFESSIONNEL_Notre_Dame_du_Carmel_de_SAKASSOU",
+      "name": "CSU-D CONFESSIONNEL Notre Dame du Carmel de SAKASSOU",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_BOUAKE-NIMBO",
+      "name": "CSU-DM PUBLIC de BOUAKE-NIMBO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSUS-PMI_PUBLIC_de_KATIOLA",
+      "name": "CSUS-PMI PUBLIC de KATIOLA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSUS-PMI_PUBLIC_de_BOUAKE_SOKOURA",
+      "name": "CSUS-PMI PUBLIC de BOUAKE SOKOURA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CMS_PRIVE-ONG_RSB_de_BOUAKE-SUD",
+      "name": "CMS PRIVE-ONG RSB de BOUAKE-SUD",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_BOUAKE-DAR-ES-SALAM",
+      "name": "CSU-DM PUBLIC de BOUAKE-DAR-ES-SALAM",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "FSU_PUBLIC_de_BOUAKE_KOKO",
+      "name": "FSU PUBLIC de BOUAKE KOKO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_COMMUNAUTAIRE_de_KOTIAKOFFIKRO",
+      "name": "CSU-DM COMMUNAUTAIRE de KOTIAKOFFIKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_CONFESSIONNEL_Ste_Camille_de_BOUAKE-SUD",
+      "name": "HG CONFESSIONNEL Ste Camille de BOUAKE-SUD",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_BEOUMI",
+      "name": "HG PUBLIC de BEOUMI",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_KONG",
+      "name": "HG PUBLIC de KONG",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSUS-SSSU_PUBLIC_de_MAN",
+      "name": "CSUS-SSSU PUBLIC de MAN",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CHR_PUBLIC_de_GUIGLO",
+      "name": "CHR PUBLIC de GUIGLO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_DANANE",
+      "name": "HG PUBLIC de DANANE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_GRAND-GBAPLEU",
+      "name": "CSU-DM PUBLIC de GRAND-GBAPLEU",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_GBEPLEU",
+      "name": "CSU-DM PUBLIC de GBEPLEU",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-D_PUBLIC_Libreville_de_MAN",
+      "name": "CSU-D PUBLIC Libreville de MAN",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSUS-PMI_PUBLIC_de_MAN",
+      "name": "CSUS-PMI PUBLIC de MAN",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CMS_PRIVE_CIP_Cames_(HAPPYNESS)_de_GUIGLO",
+      "name": "CMS PRIVE CIP Cames (HAPPYNESS) de GUIGLO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSUS-PMI_PUBLIC_de_AGBOVILLE",
+      "name": "CSUS-PMI PUBLIC de AGBOVILLE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CHR_PUBLIC_de_AGBOVILLE",
+      "name": "CHR PUBLIC de AGBOVILLE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_GRAND-MORIE",
+      "name": "CSU-DM PUBLIC de GRAND-MORIE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_CONFESSIONNEL_Soeur_Cathérine_de_YOPOUGON",
+      "name": "CSU-DM CONFESSIONNEL Soeur Cathérine de YOPOUGON",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HGS_PRIVE_CEPREF_de_YOPOUGON_ATTIE",
+      "name": "HGS PRIVE CEPREF de YOPOUGON ATTIE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "FSU_COMMUNAUTAIRE_de_ADIOPODOUME",
+      "name": "FSU COMMUNAUTAIRE de ADIOPODOUME",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "Service_de_Pédiatrie_CHU_de_YOPOUGON",
+      "name": "Service de Pédiatrie CHU de YOPOUGON",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSUS-CDV_PRIVE_AIBEF_de_YOPOUGON",
+      "name": "CSUS-CDV PRIVE AIBEF de YOPOUGON",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_Songon_KASSABLE",
+      "name": "CSU-DM PUBLIC de Songon KASSABLE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_COMMUNAUTAIRE_Niangon_Lokoa_de_YOPOUGON",
+      "name": "CSU-DM COMMUNAUTAIRE Niangon Lokoa de YOPOUGON",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "FSU_COMMUNAUTAIRE_de_YOPOUGON_NIANGON-SUD",
+      "name": "FSU COMMUNAUTAIRE de YOPOUGON NIANGON-SUD",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "FSU_COMMUNAUTAIRE_de_YOPOUGON_PORT-BOUET_II",
+      "name": "FSU COMMUNAUTAIRE de YOPOUGON PORT-BOUET II",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_YOPOUGON-ATTIE",
+      "name": "HG PUBLIC de YOPOUGON-ATTIE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "Service_de_Medecine-Interne_CHU_YOPOUGON",
+      "name": "Service de Medecine-Interne CHU YOPOUGON",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_COMMUNAUTAIRE_de_YOPOUGON_AZITO",
+      "name": "CSU-DM COMMUNAUTAIRE de YOPOUGON AZITO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-D_CONFESSIONNEL_SOEUR_PASSIONNISTE_d'_ABADJIN-DOUME",
+      "name": "CSU-D CONFESSIONNEL SOEUR PASSIONNISTE d' ABADJIN-DOUME",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PRIVE_ASAPSU_de_GESCO",
+      "name": "CSU-DM PRIVE ASAPSU de GESCO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "FSU_COMMUNAUTAIRE_de_YOPOUGON_GESCO",
+      "name": "FSU COMMUNAUTAIRE de YOPOUGON GESCO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CMS_PRIVÉ_DROPPIN_CENTER_ESPACE_CONFIANCE",
+      "name": "CMS PRIVÉ DROPPIN CENTER ESPACE CONFIANCE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_CONFESSIONNEL_Béthesda_d'_ABENGOUROU",
+      "name": "CSU-DM CONFESSIONNEL Béthesda d' ABENGOUROU",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-D_PUBLIC_de_SAN_PEDRO",
+      "name": "CSU-D PUBLIC de SAN PEDRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CMS_PRIVÉ_DROP_IN_CENTER_ESPACE_CONFIANCE_DE_COCODY_BINGERVILLE",
+      "name": "CMS PRIVÉ DROP IN CENTER ESPACE CONFIANCE DE COCODY BINGERVILLE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSUS-PMI_PUBLIC_de_DUEKOUE",
+      "name": "CSUS-PMI PUBLIC de DUEKOUE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSUS-CDV_Communautaire_FROMAGER_SIDASTOP_de_Gagnoa",
+      "name": "CSUS-CDV Communautaire FROMAGER SIDASTOP de Gagnoa",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "INF-PV_PRIVE_IDE-AFRIQUE_de_MAN",
+      "name": "INF-PV PRIVE IDE-AFRIQUE de MAN",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CMS_PRIVE_-_ONG_SAPHARM_de_DALOA",
+      "name": "CMS PRIVE - ONG SAPHARM de DALOA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CMS_PRIVE-ONG_ASAPSU_de_YAMOUSSOUKRO",
+      "name": "CMS PRIVE-ONG ASAPSU de YAMOUSSOUKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CENTRE_MEDICO-SOCIAL_CEEDEB",
+      "name": "CENTRE MEDICO-SOCIAL CEEDEB",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-D_PRIVE_DE_ENDA-SANTE_-_CI",
+      "name": "CSU-D PRIVE DE ENDA-SANTE - CI",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU_PUBLIC_de_ABONGOUA",
+      "name": "CSU PUBLIC de ABONGOUA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSUS-CAT_PUBLIC_de_YAMOUSSOUKRO",
+      "name": "CSUS-CAT PUBLIC de YAMOUSSOUKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSR-D_CONFESSIONNEL_Charité_de_KOTOBI",
+      "name": "CSR-D CONFESSIONNEL Charité de KOTOBI",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CHR_PUBLIC_de_DIMBOKRO",
+      "name": "CHR PUBLIC de DIMBOKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CHR_PUBLIC_de_YAMOUSSOUKRO",
+      "name": "CHR PUBLIC de YAMOUSSOUKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_ANDE",
+      "name": "CSU-DM PUBLIC de ANDE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_ANOUMABA",
+      "name": "CSU-DM PUBLIC de ANOUMABA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_BENGASSOU",
+      "name": "CSU-DM PUBLIC de BENGASSOU",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-D_PUBLIC_Dioulakro_de_YAMOUSSOKRO",
+      "name": "CSU-D PUBLIC Dioulakro de YAMOUSSOKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_ETTROKRO",
+      "name": "CSU-DM PUBLIC de ETTROKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_KANKANDI",
+      "name": "CSU-DM PUBLIC de KANKANDI",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_KOKOUMBO",
+      "name": "CSU-DM PUBLIC de KOKOUMBO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_KPOUEBO",
+      "name": "CSU-DM PUBLIC de KPOUEBO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_KREGBE",
+      "name": "CSU-DM PUBLIC de KREGBE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_Morofè_de_YAMOUSSOKRO",
+      "name": "CSU-DM PUBLIC Morofè de YAMOUSSOKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_N'GUESSANKRO",
+      "name": "CSU-DM PUBLIC de N'GUESSANKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-D_PUBLIC_Nzuéssy_de_YAMOUSSOUKRO",
+      "name": "CSU-D PUBLIC Nzuéssy de YAMOUSSOUKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_OUELLE",
+      "name": "CSU-DM PUBLIC de OUELLE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSR-D_PUBLIC_de_SAKIARE",
+      "name": "CSR-D PUBLIC de SAKIARE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_TIEMELEKRO",
+      "name": "CSU-DM PUBLIC de TIEMELEKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_ARRAH",
+      "name": "HG PUBLIC de ARRAH",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_BOCANDA",
+      "name": "HG PUBLIC de BOCANDA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_BONGOUANOU",
+      "name": "HG PUBLIC de BONGOUANOU",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_DAOUKRO",
+      "name": "HG PUBLIC de DAOUKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_DJEKANOU",
+      "name": "HG PUBLIC de DJEKANOU",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_KOUASSI-KOUASSIKRO",
+      "name": "HG PUBLIC de KOUASSI-KOUASSIKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de__M'BATTO",
+      "name": "HG PUBLIC de  M'BATTO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_TIEBISSOU",
+      "name": "HG PUBLIC de TIEBISSOU",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "HG_PUBLIC_de_TOUMODI",
+      "name": "HG PUBLIC de TOUMODI",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-D_CONFESSIONNEL_NDA_de_DIMBOKRO",
+      "name": "CSU-D CONFESSIONNEL NDA de DIMBOKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSUS-PMI_PUBLIC_de_DAOUKRO",
+      "name": "CSUS-PMI PUBLIC de DAOUKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSUS-PMI_PUBLIC_de_DIMBOKRO",
+      "name": "CSUS-PMI PUBLIC de DIMBOKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSUS-PMI_PUBLIC_de_YAMOUSSOUKRO",
+      "name": "CSUS-PMI PUBLIC de YAMOUSSOUKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CMS_PRIVE-ONG_RSB_de_YAMOUSSOUKRO",
+      "name": "CMS PRIVE-ONG RSB de YAMOUSSOUKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CMS_CONFESSIONNEL_SAINTE_ANNE_de_BOCANDA",
+      "name": "CMS CONFESSIONNEL SAINTE ANNE de BOCANDA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "Centre_Médico-Social_Le_Walé_YAMOUSSOUKRO",
+      "name": "Centre Médico-Social Le Walé YAMOUSSOUKRO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_COMMUNAUTAIRE_de_KOUMASSI_DIVO",
+      "name": "CSU-DM COMMUNAUTAIRE de KOUMASSI DIVO",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSUS-CAT_PUBLIC_de_DALOA",
+      "name": "CSUS-CAT PUBLIC de DALOA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_GADOUAN",
+      "name": "CSU-DM PUBLIC de GADOUAN",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_PUBLIC_de_BEDIALA",
+      "name": "CSU-DM PUBLIC de BEDIALA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CHR_PUBLIC_de_DALOA",
+      "name": "CHR PUBLIC de DALOA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-M_PUBLIC_de_DALOA",
+      "name": "CSU-M PUBLIC de DALOA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "F_S_POLICE_de_DALOA",
+      "name": "F S POLICE de DALOA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-D_PUBLIC_de_DALOA",
+      "name": "CSU-D PUBLIC de DALOA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-M_PUBLIC_Quartier_Garage_de_DALOA",
+      "name": "CSU-M PUBLIC Quartier Garage de DALOA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSUS-PMI_PUBLIC_de_DALOA",
+      "name": "CSUS-PMI PUBLIC de DALOA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSR-DM_PUBLIC_de_GONATE",
+      "name": "CSR-DM PUBLIC de GONATE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CHR_PUBLIC_de_BOUAFLE",
+      "name": "CHR PUBLIC de BOUAFLE",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSUS-CDV_PUBLIC_AIBEF_de_DALOA",
+      "name": "CSUS-CDV PUBLIC AIBEF de DALOA",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
+      "clientID": "CSU-DM_CONFESSIONNEL_Notre_Dame_de_la_Providence",
+      "name": "CSU-DM CONFESSIONNEL Notre Dame de la Providence",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "020f609eef89ee2bb29b94089d717a9b",
+      "passwordHash": "efb76c5b03d01b09c3e12216697c8d37d008f7246d186b155b1c1c772d0a0cc0f69f45512343c08ebca7c9bcb7caf3bdf9ff6dc54aa135bd3920c66e8119e553"
     }
-
   ],
   "Channels": [
     {
@@ -127,7 +1737,7 @@
       ],
       "type": "http",
       "allow": [
-        "test"
+        "opencr"
       ],
       "whitelist": [],
       "authType": "private",
@@ -172,7 +1782,7 @@
         }
       ],
       "priority": 1
-    } ,
+    },
     {
       "methods": [
         "GET",
@@ -186,9 +1796,7 @@
         "PATCH"
       ],
       "type": "http",
-      "allow": [
-        "test"
-      ],
+      "allow": [],
       "whitelist": [],
       "authType": "public",
       "matchContentTypes": [],
