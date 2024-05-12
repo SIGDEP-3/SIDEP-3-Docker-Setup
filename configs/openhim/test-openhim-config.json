@@ -1860,7 +1860,7 @@
         "PATCH"
       ],
       "type": "http",
-      "allow": [],
+      "allow": ["opencr"],
       "whitelist": [],
       "authType": "public",
       "matchContentTypes": [],
@@ -1918,7 +1918,8 @@
       ],
       "type": "http",
       "allow": [
-        "test"
+        "test",
+        "opencr"
       ],
       "whitelist": [],
       "authType": "private",
