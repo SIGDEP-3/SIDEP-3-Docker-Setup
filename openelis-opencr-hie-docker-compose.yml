@@ -1,0 +1,302 @@
+services:
+
+#OpenHIM -IOL
+  mongo:
+    container_name: openhim-mongo
+    ports:
+      - "27018:27017"
+    image: mongo:3.4
+    networks:
+      - hie
+      
+  openhim-core:
+    container_name: openhim-core
+    image: jembi/openhim-core:v7.1.0
+    restart: unless-stopped
+    environment:
+      - mongo_url=mongodb://mongo/openhim
+      - mongo_atnaUrl=mongodb://mongo/openhim
+    healthcheck:
+      test: "node /healthcheck.js"
+      interval: 20s
+      timeout: 20s
+      retries: 2
+    volumes:
+      - ./configs/openhim/healthcheck.js:/healthcheck.js
+    depends_on:
+      - mongo
+    ports:
+      - "8085:8080"
+      - "5000:5000"
+      - "5001:5001"
+      - "5050:5050"
+      - "5051:5051"
+      - "5052:5052"
+      - "7788:7788"       
+    networks:
+      - hie
+    labels:
+        - 'traefik.enable=true'
+        - 'traefik.docker.network=sigdep3_hie'
+        - 'traefik.http.services.openhim-api.loadbalancer.server.port=8080'
+        - 'traefik.http.services.openhim-api.loadbalancer.server.scheme=https'
+        - 'traefik.http.routers.openhim-api.service=openhim-api'
+        - 'traefik.http.routers.openhim-api.tls=true'
+        - 'traefik.http.routers.openhim-api.entrypoints=web-secure'
+        - 'traefik.http.routers.openhim-api.rule=Host(`test2.cihis.org`) && PathPrefix(`/openhimcomms`)'
+        - 'traefik.http.routers.openhim-api.middlewares=openhim-api'      
+        - 'traefik.http.middlewares.openhim-api.stripprefix.prefixes=/openhimcomms'
+        - 'traefik.http.middlewares.openhim-api.stripprefix.forceSlash=false'
+
+        - 'traefik.http.services.openhim-ssl.loadbalancer.server.port=5000'
+        - 'traefik.http.services.openhim-ssl.loadbalancer.server.scheme=https'
+        - 'traefik.http.routers.openhim-ssl.service=openhim-ssl'
+        - 'traefik.http.routers.openhim-ssl.tls=true'
+        - 'traefik.http.routers.openhim-ssl.entrypoints=web-secure'
+        - 'traefik.http.routers.openhim-ssl.rule=Host(`test2.cihis.org`) && PathPrefix(`/openhimcore`)'
+        - 'traefik.http.routers.openhim-ssl.middlewares=openhim-ssl'      
+        - 'traefik.http.middlewares.openhim-ssl.stripprefix.prefixes=/openhimcore'
+        - 'traefik.http.middlewares.openhim-ssl.stripprefix.forceSlash=false'
+
+  openhim-console:
+    container_name: openhim-console
+    image: jembi/openhim-console:v1.15.0
+    volumes:
+      - ./configs/openhim-console/default-local.json:/usr/share/nginx/html/config/default.json
+    healthcheck:
+      test: "curl -sS http://openhim-console || exit 1"
+      interval: 10s
+      timeout: 60s
+      retries: 3
+    ports:
+        - "9000:80"         
+    labels:
+        - 'traefik.enable=true'
+        - 'traefik.docker.network=sigdep3_hie'
+        - 'traefik.http.services.openhim-console.loadbalancer.server.port=80'
+        - 'traefik.http.services.openhim-console.loadbalancer.server.scheme=http'
+        - 'traefik.http.routers.openhim-console.service=openhim-console'
+        - 'traefik.http.routers.openhim-console.tls=true'
+        - 'traefik.http.routers.openhim-console.entrypoints=web-secure'
+        - 'traefik.http.routers.openhim-console.rule=Host(`test2.cihis.org`)'
+    networks:
+      - hie
+
+  # Loads Default OpenHIM Config
+  openhim-config:
+    container_name: openhim-config
+    image: ghcr.io/i-tech-uw/openhim-config:v0.0.0
+    volumes:
+      - ./configs/openhim/test-openhim-config.json:/app/test-openhim-config.json
+    networks:
+      - hie
+
+###
+  # OpenCR - Client Registry
+  ###
+  opencr:
+    container_name: opencr
+    hostname: opencr
+    image: intrahealth/opencr:latest
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=docker
+      - HAPI_FHIR_URL=http://opencr-fhir:8080/fhir/metadata
+    volumes:
+      - ./configs/opencr/config.json:/src/server/config/config_docker.json
+      - ./configs/opencr/mediator.json:/src/server/config/mediator.json
+      - ./configs/opencr/decisionRules.json:/src/server/config/decisionRules.json
+      - ./configs/opencr/PatientRelationship.json:/src/resources/Relationships/PatientRelationship.json
+    depends_on:
+      - opencr-fhir
+    labels:
+      - 'traefik.enable=true'
+      - 'traefik.docker.network=sigdep3_hie'
+      - 'traefik.http.routers.opencr.tls=true'
+      - 'traefik.http.routers.opencr.entrypoints=web-secure'
+      - 'traefik.http.services.opencr.loadbalancer.server.port=3000'
+      - 'traefik.http.routers.opencr.rule=Host(`test2.cihis.org`) && PathPrefix(`/crux`) || PathPrefix(`/ocrux`)' 
+      - 'traefik.http.services.opencr.loadbalancer.server.scheme=http'
+      - 'traefik.http.routers.opencr.service=opencr'
+    networks:
+      - hie
+    ports:
+      - 3000:3000         
+
+  opencr-fhir:
+    image: hapiproject/hapi:v5.5.1
+    container_name: opencr-fhir
+    hostname: opencr-fhir
+    restart: unless-stopped
+    healthcheck:
+      test: "curl -sS http://opencr-fhir:8080/fhir/metadata || exit 1"
+      interval: 90s
+      timeout: 30s
+      retries: 3
+    volumes:
+      - /data/hapi
+    #   - ./configs/opencr/application.yml:/data/hapi/application.yaml
+    ports:
+      - 8087:8080
+    # env_file:
+    #   - ./configs/opencr/.env
+    # environment:
+    #   SPRING_CONFIG_LOCATION: 'file:///data/hapi/application.yaml'
+    networks:
+      - hie
+  es:
+    container_name: es
+    hostname: es
+    image: intrahealth/elasticsearch:latest
+    restart: unless-stopped
+    environment:
+      - xpack.security.enabled=false
+      - discovery.type=single-node
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
+    volumes:
+      - /usr/share/elasticsearch/data
+      - ./esplugin/string-similarity:/usr/share/elasticsearch/plugins/string-similarity-scoring
+    healthcheck:
+      test: "curl --silent --fail http://es:9200/_cluster/health || exit 1"
+    networks:
+      - hie
+  
+  ## OpenElis setup
+  certs:
+    container_name: oe-certs 
+    image: itechuw/certgen:main
+    restart: always
+    environment:
+      - KEYSTORE_PW="kspass"
+      - TRUSTSTORE_PW="tspass"
+    networks:
+      - hie
+    volumes:
+      -  key_trust-store-volume:/etc/openelis-global
+      -  keys-vol:/etc/ssl/private/
+      -  certs-vol:/etc/ssl/certs/
+
+  database:
+    container_name: openelisglobal-database 
+    image: postgres:14.4
+    ports:
+        - "15432:5432"
+    restart: always
+    env_file:
+        - ./configs/openelis/database/database.env
+    volumes:
+          # preserves the database between containers
+          - db-data2:/var/lib/postgresql/data                
+          # files here will run on install
+          - ./configs/openelis/database/dbInit:/docker-entrypoint-initdb.d
+    networks:
+        - hie
+    healthcheck:
+        test: [ "CMD", "pg_isready", "-q", "-d", "clinlims", "-U", "clinlims" ]
+        timeout: 45s
+        interval: 10s
+        retries: 10 
+            
+  oe.openelis.org:
+    container_name: openelisglobal-webapp 
+    image: itechuw/openelis-global-2-dev:oebackend
+    depends_on:
+        - database
+        - certs
+    ports:
+        - "8080:8080"
+        - "8443:8443"
+    restart: always
+    networks:
+      hie:
+        ipv4_address: 172.20.1.121
+  
+    environment:
+        - DEFAULT_PW=adminADMIN! 
+        - TZ=Africa/Nairobi
+          # context.xml doesn't seem to be able to pick up environment variables directly, so we are passing them in as CATALINA_OPTS
+        - CATALINA_OPTS= -Ddatasource.url=jdbc:postgresql://database:5432/clinlims -Ddatasource.username=clinlims -Ddatasource.password=clinlims
+    volumes:
+        -  key_trust-store-volume:/etc/openelis-global
+        - ./volume/plugins/:/var/lib/openelis-global/plugins
+        - ./configs/openelis/tomcat/oe_server.xml:/usr/local/tomcat/conf/server.xml
+        -  lucene_index-vol:/var/lib/lucene_index
+    secrets:
+        - source: datasource.password
+        - source: common.properties
+            
+  fhir.openelis.org:
+    container_name: external-fhir-api
+    image: hapiproject/hapi:v6.6.0-tomcat
+    depends_on:
+        - database
+        - certs
+    ports:
+        - "8081:8080"
+        - "8444:8443"
+    networks:
+        - hie
+    restart: always
+    environment:
+      SPRING_CONFIG_LOCATION: file:///run/secrets/hapi_application.yaml
+      TZ: Africa/Nairobi
+      JAVA_OPTS: "-Djavax.net.ssl.trustStore=/etc/openelis-global/truststore 
+                  -Djavax.net.ssl.trustStorePassword=tspass
+                  -Djavax.net.ssl.trustStoreType=pkcs12 
+                  -Djavax.net.ssl.keyStore=/etc/openelis-global/keystore 
+                  -Djavax.net.ssl.keyStorePassword=kspass 
+                  -Djavax.net.ssl.keyStoreType=pkcs12"            
+    
+    volumes:
+        -  key_trust-store-volume:/etc/openelis-global
+        - ./configs/openelis/tomcat/hapi_server.xml:/opt/bitnami/tomcat/conf/server.xml
+    secrets:
+          - source: hapi_application.yaml 
+
+  frontend.openelis.org:
+    image: itechuw/openelis-global-2-frontend-dev:oefrontend
+    container_name: openelisglobal-front-end
+    networks:
+        - hie
+
+  proxy:
+    image: nginx:1.15-alpine
+    container_name: openelisglobal-proxy
+    ports:
+        - 80:80
+        - 443:443
+    volumes:
+        - certs-vol:/etc/nginx/certs/
+        - keys-vol:/etc/nginx/keys/
+        - ./configs/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    networks:
+        - hie
+    restart: unless-stopped
+    depends_on:
+      - certs        
+            
+secrets:
+  datasource.password:
+    file: ./configs/openelis/properties/datasource.password
+  common.properties:
+    file: ./configs/openelis/properties/common.properties
+  hapi_application.yaml:
+    file: ./configs/openelis/properties/hapi_application.yaml    
+
+networks:
+  hie:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.1.0/24
+        
+volumes:
+  db-data2:
+  key_trust-store-volume:
+  certs-vol:
+  certs:
+  keys-vol:
+  lucene_index-vol:      

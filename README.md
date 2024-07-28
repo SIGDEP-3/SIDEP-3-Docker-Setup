@@ -1,4 +1,4 @@
-# ci-hie-demo
+# OpenELIS-OpenCR-HIE-Setup
 
 
 ## How-Tos
@@ -11,7 +11,7 @@
 ### Startup
 
 ```sh
-git clone https://github.com/I-TECH-UW/ci-hie-demo.git
+git clone https://github.com/mherman22/OpenELIS-OpenCR-HIE-Setup
 
 git lfs fetch
 
@@ -44,13 +44,12 @@ Spin up the services
 ```
 docker compose -f docker-compose-local.yml up -d
 ```
-### You should be able to acces the Sigdep (OpenMRS) ,OpenHIM and Hapi-Fhir instances  at the following urls
+### You should be able to acces the OpenELIS ,OpenHIM , OpenCR and Hapi-Fhir instances  at the following urls
 | Instance  |     URL       | credentials (user : password)|
 |---------- |:-------------:|------:                       |
-| Sigdep (OpenMRS)   | http://localhost:8080/openmrs  |  admin : Dppeis@pnls_16 |
 | OpenHIM   | http://localhost:9000  |  root@openhim.org : openhim |
 | OpenCR    | http://localhost:3000/crux  |  root@intrahealth.org  : intrahealth|
-| OpenELIS | https://localhost:8443/OpenELIS-Global/ |    admin : adminADMIN!| 
+| OpenELIS | https://localhost/login |    admin : adminADMIN!| 
 
 ### Restart the Streaming pipeline to work Properly
 After spinning up the Sigdep3 , restart the Streaming pipeline to Stream all Changes to the SHR (Fixed by adding depends-on meta in compose file)

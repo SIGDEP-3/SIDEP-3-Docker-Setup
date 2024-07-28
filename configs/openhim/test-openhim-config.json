@@ -160,6 +160,16 @@
       "roles": [
         "opencr"
       ],
+      "clientID": "openelis",
+      "name": "openelis",
+      "passwordAlgorithm": "sha512",
+      "passwordSalt": "161975282e3b7a69c9f1174c680d5d4b",
+      "passwordHash": "896ed9437c6c5ade2691e458bc566874daaa1b0eb093f52b28c2267ad787bc8e3b5f21103fe2ac34ac578dd774a97e8145fb24369ce3a0633214bf0b7b355a01"
+    },
+    {
+      "roles": [
+        "opencr"
+      ],
       "clientID": "CHR_PUBLIC_de_KORHOGO",
       "name": "CHR PUBLIC de KORHOGO",
       "passwordAlgorithm": "sha512",

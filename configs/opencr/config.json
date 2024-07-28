@@ -21,6 +21,10 @@
       "displayName": "Postman Testing"
     },
     {
+      "id": "openelis",
+      "displayName": "Open Laboratory Information System"
+    },
+    {
       "id": "CSUS-DM_PUBLIC__AIBEF_de_KORHOGO",
       "displayName": "CSUS-DM PUBLIC  AIBEF de KORHOGO"
     },
@@ -707,7 +711,10 @@
         "http://clientregistry.org/openmrs",
         "http://tap-cdi.openelis.org/openmrs",
         "http://tap-demo.openelisci.org/openmrs",
-        "http://35.85.179.171/openmrs"
+        "http://35.85.179.171/openmrs",
+        "http://openelis-global.org/pat_nationalId",
+        "http://openelis-global.org/pat_guid",
+        "http://openelis-global.org/pat_uuid"
       ],
       "displayName": "Internal ID"
     },
@@ -743,7 +750,7 @@
     }
   },
   "sync": {
-    "lastFHIR2ESSync": "2024-03-06T13:30:56"
+    "lastFHIR2ESSync": "2024-07-15T09:58:57"
   },
   "__comments": {
     "matching.tool": "this tells if the app should use mediator algorithms or elasticsearch algorithms for matching, two options mediator and elasticsearch"

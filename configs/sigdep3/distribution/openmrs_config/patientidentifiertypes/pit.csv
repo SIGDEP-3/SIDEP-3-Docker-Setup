@@ -1,8 +1,0 @@
-Uuid,Void/Retire,Name,Description,Required,Format,Format description,Validator,Location behavior,Uniqueness behavior,_order:500
-8d793bee-c2cc-11de-8d13-0010c6dffd0f,,OpenMRS Identification Number,Unique number used in OpenMRS,,,,org.openmrs.patient.impl.LuhnIdentifierValidator,,,
-8d79403a-c2cc-11de-8d13-0010c6dffd0f,,Old Identification Number,Number given out prior to the OpenMRS system (No check digit),,,,,,,
-6b6e9d94-015b-48f6-ac95-da239512ff91,,1.Nomenclature de PEC VIH,Code etablissement(4)/Code site(2)/Ann?e(2)/ Numero d'ordre(5),TRUE,^[0-9]{4}/.{2}/[0-9]{2}/[0-9]{5}E?$,Id etablissement(4)/Id site(2)/Ann?e(2)/ N? d'ordre(5),,REQUIRED,,
-b3b24192-6856-46fd-ab4e-acde31f80c85,,3.Nomenclature de CD,Codification de d?pistage en vigueur,,,,,,,
-3825d4f8-1afd-4da4-b30f-e0ff4cd256a5,,4.Nomenclature de PTME,codification  PTME en vigueur,,,,,,,
-1bdba5bf-b074-458a-bba1-c6d58d799089,,UPI,Unique Patients Identification,,^[0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9][0-9][0-9]$,123-56-7899,,,,
-43a6e699-c2b8-4d5f-9e7f-cf19448d59b7,,CRUID,CRUID,FALSE,,,,NOT_USED,,
