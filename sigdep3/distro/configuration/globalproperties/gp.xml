@@ -32,5 +32,9 @@
         <property>search.indexVersion</property>
         <value>8</value>
       </globalProperty>
+      <globalProperty>
+        <property>default_locale</property>
+        <value>en</value>
+      </globalProperty>
     </globalProperties>
 </config>

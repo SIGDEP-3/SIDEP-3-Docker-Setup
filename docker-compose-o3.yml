@@ -21,7 +21,7 @@ services:
     environment:
       SPA_PATH: /openmrs/spa
       API_URL: /openmrs
-      SPA_CONFIG_URLS: /openmrs/spa/ozone-frontend-config.json
+      SPA_CONFIG_URLS: /openmrs/spa/sigdep-frontend-config.json
       SPA_DEFAULT_LOCALE:
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost/"]
@@ -29,7 +29,7 @@ services:
     depends_on:
       - sigdep3-backend
     volumes:
-      - ./sigdep3/frontend/ozone-frontend-config.json:/usr/share/nginx/html/ozone-frontend-config.json
+      - ./sigdep3/frontend/sigdep-frontend-config.json:/usr/share/nginx/html/sigdep-frontend-config.json
       - ./sigdep3/frontend:/usr/share/nginx/html/sigdep
 
   sigdep3-backend:
