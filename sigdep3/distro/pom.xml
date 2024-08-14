@@ -22,10 +22,10 @@
     <openmrs.version>2.3.6</openmrs.version>
 
     <addresshierarchy.version>2.16.0</addresshierarchy.version>
-    <biologicalorder.version>1.0.1</biologicalorder.version>
+    <biologicalorder.version>1.0.2</biologicalorder.version>
     <calculation.version>1.2.1</calculation.version>
     <clientregistry.version>1.1.8-SNAPSHOT</clientregistry.version>
-    <event.version>2.9.0</event.version>
+    <event.version>2.10.0</event.version>
     <fhir2.version>1.10.0</fhir2.version>
     <hivscreening.version>1.1.0-SNAPSHOT</hivscreening.version>
     <htmlformentry.version>4.0.0</htmlformentry.version>
@@ -44,9 +44,16 @@
     <serialization-xstream.version>0.2.14</serialization-xstream.version>
     <supply.version>1.0.2</supply.version>
     <webservices.rest.version>2.41.0</webservices.rest.version>
+    <queue.version>2.4.0</queue.version>
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>org.openmrs.module</groupId>
+      <artifactId>queue-omod</artifactId>
+      <version>${queue.version}</version>
+      <scope>provided</scope>
+    </dependency>
     <dependency>
       <groupId>org.openmrs.module</groupId>
       <artifactId>supply-omod</artifactId>
