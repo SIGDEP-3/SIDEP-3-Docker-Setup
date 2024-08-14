@@ -33,7 +33,7 @@
     <idgen.version>4.6.0</idgen.version>
     <initializer.version>2.6.0</initializer.version>
     <labonfhir.version>1.4.0-SNAPSHOT</labonfhir.version>
-    <legacyui.version>1.15.4-sigdep-SNAPSHOT</legacyui.version>
+    <legacyui.version>1.15.4-sigdep-20240814.092956-2</legacyui.version>
     <metadatamapping.version>1.6.0</metadatamapping.version>
     <metadatasharing.version>1.9.0</metadatasharing.version>
     <openconceptlab.version>1.2.9</openconceptlab.version>
